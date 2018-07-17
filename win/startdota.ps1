@@ -8,6 +8,6 @@ if ($running -ne $null)
     Stop-Process -Name $progname
 }
 
-Start-Process -FilePath $prog "-console -map dota"
+Start-Process -FilePath $prog "-console -sw -map dota"
 Start-Sleep -Seconds 10
-Start-Process -FilePath ".\sendkeys.ahk"
+Start-Process -FilePath "..\sample-data\3985833426.shots.ahk"

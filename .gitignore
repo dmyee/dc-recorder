@@ -1,2 +1,3 @@
 .DS_Store
 Pipfile.lock
+sample-data/*.shots.ahk
